@@ -32,6 +32,10 @@ def reverse_a_number(num: int) -> int:
 
 
 def reverse_a_number_using_string(num: int) -> int:
+    """
+    Time Complexity : O(1)      If we ignore what the time taken for python to convert integer to string
+    Space Complexity: O(1)
+    """
     num_string = str(num)
     reversed_num_str = num_string[::-1]
     return int(reversed_num_str)
