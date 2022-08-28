@@ -11,13 +11,17 @@ Examples:
     Input: N = 123
     Output: 321
 
-    Input: N = 234
-    Output: 432
+    Input: N = -234
+    Output: -432
+
+Accepted
+* LeetCode : https://leetcode.com/problems/palindrome-number/
 """
 
 
-def reverse_number(num: int) -> int:
+def reverse_positive_number(num: int) -> int:
     """
+    Given  num > 0
     The idea is to extract digits from end of the given number and create a new number in reverse order.
 
     Time Complexity : O(n),  Where n is the length of the given number
@@ -41,7 +45,23 @@ def reverse_number__using_string(num: int) -> int:
     return int(reversed_num_str)
 
 
+def reverse_number_including_negative(num: int) -> int:
+    was_negative = num < 0  # Handling the -ve sign
+    num = abs(num)
+    reversed_num = reverse_positive_number(num)
+    return -reversed_num if was_negative else reversed_num
+
+
+def reverse_number_including_negative__using_string(num: int) -> int:
+    was_negative = num < 0  # Handling the -ve sign
+    num = abs(num)
+    reversed_num = reverse_number__using_string(num)
+    return -reversed_num if was_negative else reversed_num
+
+
 if __name__ == '__main__':
-    numbers = [3, 0, 321, 123456789]
+    numbers = [-123456789, -3, 0, 321, 123456789]
     for number in numbers:
-        print(reverse_number(number), reverse_number__using_string(number))
+        print(f"{number:10}     ->"
+              f"{reverse_number_including_negative(number) :15}"
+              f"{reverse_number_including_negative__using_string(number):15}")

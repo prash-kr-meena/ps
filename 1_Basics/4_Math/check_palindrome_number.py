@@ -13,7 +13,7 @@ Variations:
     Note :  This does not apply to python, but in case asked what we can do is
             we can convert it to string and then do a palindrome check
 """
-from reverse_a_number import reverse_number
+from reverse_a_number import reverse_positive_number
 
 
 def check_palindrome_number(num: int) -> bool:
@@ -26,7 +26,7 @@ def check_palindrome_number(num: int) -> bool:
     as no other significant operation is being done
     """
     num = abs(num)  # Edge case to handle negative numbers, otherwise -ve sing will also be part of the number
-    reversed_num = reverse_number(num)
+    reversed_num = reverse_positive_number(num)
     return num == reversed_num
 
 
