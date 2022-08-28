@@ -35,7 +35,7 @@ def reverse_positive_number(num: int) -> int:
     return reversed_num
 
 
-def reverse_number__using_string(num: int) -> int:
+def reverse_positive_number__using_string(num: int) -> int:
     """
     Time Complexity : O(1)      If we ignore what the time taken for python to convert integer to string
     Space Complexity: O(1)
@@ -55,7 +55,7 @@ def reverse_number_including_negative(num: int) -> int:
 def reverse_number_including_negative__using_string(num: int) -> int:
     was_negative = num < 0  # Handling the -ve sign
     num = abs(num)
-    reversed_num = reverse_number__using_string(num)
+    reversed_num = reverse_positive_number__using_string(num)
     return -reversed_num if was_negative else reversed_num
 
 
