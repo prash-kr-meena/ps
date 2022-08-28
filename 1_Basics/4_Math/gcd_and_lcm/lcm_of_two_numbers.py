@@ -10,6 +10,7 @@ Note : Python already has support for LCM in its math library,   We can pass as 
         we can assume that the internal gcd() method uses the  Euclidean’s theorem
         Whose time complexity comes to be   O(lg min(a,b))
 """
+from itertools import zip_longest
 from math import gcd, lcm
 
 

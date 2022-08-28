@@ -4,7 +4,8 @@
 
 1. Things to Know in C++/Java/Python or any language
     1. [Python Output Formatting](https://www.geeksforgeeks.org/python-output-formatting/)
-    2. [Accept multiple arguments to a method &nbsp;&nbsp; **or** <br>Variable-length arguments (`*args`, `**kwargs`) in Python](https://note.nkmk.me/en/python-args-kwargs-usage/)
+    2. [Iterate over multiple lists simultaneously `zip` _(smallest by default)_, `zip_longest`](https://www.geeksforgeeks.org/python-iterate-multiple-lists-simultaneously/)
+    3. [Accept multiple arguments to a method &nbsp;&nbsp; **or** <br>Variable-length arguments (`*args`, `**kwargs`) in Python](https://note.nkmk.me/en/python-args-kwargs-usage/)
 2. Build-up Logical Thinking
     1. [Must do Pattern Problems before starting DSA](https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/)
     2. [Patterns Code](1_Basics/2_PatternProblems/patterns.py)
