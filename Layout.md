@@ -12,4 +12,5 @@
     1. [Count digits in a number](1_Basics/4_Math/count_digits.py)
     2. [Reverse a number](1_Basics/4_Math/reverse_a_number.py)
     3. [check_palindrome_number](1_Basics/4_Math/check_palindrome_number.py)
+        1. Variations : With Space, Without space, When number is very huge that it can't fit long
     4. 
