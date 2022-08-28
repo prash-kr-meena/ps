@@ -16,7 +16,7 @@ Examples:
 """
 
 
-def reverse_a_number(num: int) -> int:
+def reverse_number(num: int) -> int:
     """
     The idea is to extract digits from end of the given number and create a new number in reverse order.
 
@@ -31,7 +31,7 @@ def reverse_a_number(num: int) -> int:
     return reversed_num
 
 
-def reverse_a_number_using_string(num: int) -> int:
+def reverse_number__using_string(num: int) -> int:
     """
     Time Complexity : O(1)      If we ignore what the time taken for python to convert integer to string
     Space Complexity: O(1)
@@ -44,4 +44,4 @@ def reverse_a_number_using_string(num: int) -> int:
 if __name__ == '__main__':
     numbers = [3, 0, 321, 123456789]
     for number in numbers:
-        print(reverse_a_number(number), reverse_a_number_using_string(number))
+        print(reverse_number(number), reverse_number__using_string(number))
