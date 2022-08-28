@@ -15,7 +15,7 @@ Examples:
     Output: -432
 
 Accepted
-* LeetCode : https://leetcode.com/problems/palindrome-number/
+* LeetCode : https://leetcode.com/problems/palindrome-number/       Not A good problem on Leetcode
 """
 
 
@@ -60,7 +60,7 @@ def reverse_number_including_negative__using_string(num: int) -> int:
 
 
 if __name__ == '__main__':
-    numbers = [-123456789, -3, 0, 321, 123456789]
+    numbers = [-123456789, -3, 0, 321, 123456789, 1534236469, 2147483647]
     for number in numbers:
         print(f"{number:10}     ->"
               f"{reverse_number_including_negative(number) :15}"

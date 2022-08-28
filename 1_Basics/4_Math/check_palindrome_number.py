@@ -12,6 +12,9 @@ Variations:
 * The number is huge that it can't be fit into long
     Note :  This does not apply to python, but in case asked what we can do is
             we can convert it to string and then do a palindrome check
+
+Accepted
+* Leetcode : https://leetcode.com/problems/palindrome-number/
 """
 from reverse_a_number import reverse_positive_number
 
