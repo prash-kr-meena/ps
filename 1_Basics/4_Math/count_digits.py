@@ -38,7 +38,7 @@ def count_digits(num: int) -> int:
     return count
 
 
-def count_digits_string(num: int) -> int:
+def count_digits__using_string(num: int) -> int:
     """
     Time Complexity: O (1)
     Space Complexity: O(1)
@@ -48,7 +48,19 @@ def count_digits_string(num: int) -> int:
     return len(number_string)
 
 
+def count_digits__using_logarithm(num: int) -> int:  # Most Optimized
+    """
+    Time  : O(1)
+    Space : O(1)
+    """
+
+    num = abs(num)  # No, you can't take the log of a negative number.
+    if num == 0:  # Edge Case: As log of 0 is undefined
+        return 1
+    return int(math.log10(num)) + 1  # Remember this formula
+
+
 if __name__ == '__main__':
     numbers = [3, 0, -1, -144, 435345345]
     for number in numbers:
-        print(count_digits(num=number), count_digits_string(num=number))
+        print(count_digits(number), count_digits__using_string(number), count_digits__using_logarithm(number))
