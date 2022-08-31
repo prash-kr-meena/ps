@@ -34,7 +34,7 @@ def all_divisors_optimized(num: int) -> List[int]:
     Space   : O(1)
     """
     divisors = [1]  # 1 divides all the numbers
-    for divisor in range(2, int(math.sqrt(num)) + 1):  # sqrt(num) is included
+    for divisor in range(2, int(math.sqrt(num)) + 1):  # [2, sqrt(num)]     Both Inclusive
         if num % divisor == 0:
             divisors.append(divisor)
             quotient = number // divisor
@@ -50,7 +50,7 @@ def all_divisors(num: int) -> List[int]:
     Space   : O(1)
     """
     divisors = []
-    for divisor in range(1, num + 1):  # ie num included
+    for divisor in range(1, num + 1):  # [1, num]     Both Inclusive
         if num % divisor == 0:
             divisors.append(divisor)
     return divisors
