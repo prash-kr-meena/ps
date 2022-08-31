@@ -30,7 +30,7 @@ def all_divisors_optimized(num: int) -> List[int]:
     See the image on TUF        For better understanding
 
 
-    Time    : O(n)
+    Time    : O(sqrt(n))
     Space   : O(1)
     """
     divisors = [1]  # 1 divides all the numbers
