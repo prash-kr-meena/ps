@@ -19,3 +19,5 @@
         1. [GCD or HCF of Multiple numbers](1_Basics/4_Math/gcd_and_lcm/gcd_of_multiple_numbers.py)
     5. [LCM of two numbers](1_Basics/4_Math/gcd_and_lcm/lcm_of_two_numbers.py)
         1. [LCM of multiple numbers](1_Basics/4_Math/gcd_and_lcm/lcm_of_multiple_numbers.py) : What's the catch here?
+    6. [Armstrong Number](1_Basics/4_Math/armstrong_number.py)
+    7. [All Divisors of a Number](1_Basics/4_Math/all_divisors.py)
