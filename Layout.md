@@ -21,3 +21,8 @@
         1. [LCM of multiple numbers](1_Basics/4_Math/gcd_and_lcm/lcm_of_multiple_numbers.py) : What's the catch here?
     6. [Armstrong Number](1_Basics/4_Math/armstrong_number.py)
     7. [All Divisors of a Number](1_Basics/4_Math/all_divisors.py)
+5. Recursion
+    * For Recursion the absolute OG is Aditya Verma
+    * [Recursion Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY) This should be more than enough to understand recursion
+    * **TODO** -> Will do these recursion problem when I revise recursion from my notes of these videos, till then I can move on
+6. 
