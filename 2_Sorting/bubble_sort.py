@@ -1,9 +1,13 @@
 """
+Bubble Sort Algorithm
+Given an array of size n, sort it in ascending order
+
+
 
 """
 
 
-def bubble_sort(nums: int) -> None:
+def bubble_sort(arr: int) -> None:
     pass
 
 
