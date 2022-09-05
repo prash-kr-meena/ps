@@ -1,8 +1,8 @@
 """
 Remember The Playing Card
 
-Youtube : https://www.youtube.com/watch?v=7kIVfVY6Axk           Love Babar
-TUF : https://takeuforward.org/data-structure/insertion-sort-algorithm/
+Youtube : https://www.youtube.com/watch?v=7kIVfVY6Axk                                                       Love Babar
+TUF     : https://takeuforward.org/data-structure/insertion-sort-algorithm/
 """
 from typing import List
 
