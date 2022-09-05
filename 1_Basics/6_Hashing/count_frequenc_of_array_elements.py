@@ -20,7 +20,16 @@ Explanation:    2 occurs 3 times in the array
                 4 occurs 2 time in the array
 
 Article
+TUF : https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/
+GFG : https://www.geeksforgeeks.org/count-frequencies-elements-array-o1-extra-space-time/
+        Note :  This problem can be solved in Constant space as well, checkout last solution on GFG article
+                It involves a little mathematics,
+                but it also has a constraint that the number are +ve only and  strictly present from 0 to n
 
+                Below is a video explanation of the same, it is not that great though
+                Chances are slim that somebody will ask this question,
+                just know it is possible when data is present with such restriction
+        Youtube : https://youtu.be/UW1InjlrXFU?t=135
 
 Practice
 
@@ -32,6 +41,7 @@ def count_frequency_of_array_elements(nums: List[int]) -> Dict[int, int]:
     """
     Time  : O(n)
     Space : O(n)
+    Note  : This approach works with element which both -ve and +ve elements
     """
     freq_map = {}
     for num in nums:
