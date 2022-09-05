@@ -33,8 +33,17 @@
     * [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
 7. Sorting
     * [selection_sort](2_Sorting/selection_sort.py)
+        * In the normal Selection sort (asc order)
+        * We traverse from let to right and
+        * The sorted array is also build form left to right direction
+        * Basically : Here we push the smallest element to the first
     * [bubble_sort](2_Sorting/bubble_sort.py)
+        * In the normal Bubble sort (asc order)
+        * We traverse from let to right and
+        * But The sorted array is build form right to left direction
+        * Basically : Here we push the largest element to the end
     * [insertion_sort](2_Sorting/insertion_sort.py)
+    * [Difference Bw Selection Sort and Insertion Sort]()
     * [merge_sort](2_Sorting/merge_sort.py)
     * [quick_sort](2_Sorting/quick_sort.py)
 

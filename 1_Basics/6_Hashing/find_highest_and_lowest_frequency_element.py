@@ -13,8 +13,9 @@ from typing import List, Tuple, Dict
 def find_highest_and_lowest_frequency_element(nums: List[int]) -> Tuple[int, int, int, Dict[int, int]]:
     # return (max_freq, min_freq, diff , frequency_map)
     """
-        Time  : O()
-        Space : O()
+    Time  : O(n)
+    Space : O(n)
+    Note  : This approach works with element which both -ve and +ve elements
     """
     freq_map = {}
     max_freq_till_now = -math.inf

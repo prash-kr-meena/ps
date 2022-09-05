@@ -17,6 +17,11 @@ from Utils.Array import swap_array_elements
 
 
 def selection_sort(arr: List[int]) -> None:
+    """
+    Time  : O(n^2)
+    Space : O(1)
+    :param arr: Array of integers
+    """
     n = len(arr)
     for i in range(0, n):  # [0, n)
         index_of_smallest_element = i

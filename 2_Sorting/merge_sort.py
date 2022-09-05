@@ -1,9 +1,10 @@
 """
 
 """
+from typing import List
 
 
-def merge_sort(nums: int) -> None:
+def merge_sort(arr: List[int]) -> None:
     pass
 
 
