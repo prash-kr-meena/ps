@@ -12,6 +12,11 @@ from Utils.Array import swap_array_elements
 
 
 def insertion_sort(arr: List[int]) -> None:
+    """
+    Time  : O(n^2)
+    Space : O(1)
+    :param arr: Array of integers
+    """
     n = len(arr)
     for i in range(1, n):
         j = i  # j is temp variable to traverse back and shift element to correct  position
