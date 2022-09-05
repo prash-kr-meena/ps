@@ -1,5 +1,8 @@
 [Striver A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 
+<details>
+  <summary>Learn the basics</summary>
+
 #### Learn the basics
 
 1. Things to Know in C++/Java/Python or any language
@@ -28,9 +31,39 @@
 6. Hashing
     * [Count frequency of each element in the array](1_Basics/6_Hashing/count_frequenc_of_array_elements.py)
     * [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
+7. Sorting
+    * [selection_sort](2_Sorting/selection_sort.py)
+    * [bubble_sort](2_Sorting/bubble_sort.py)
+    * [insertion_sort](2_Sorting/insertion_sort.py)
+    * [merge_sort](2_Sorting/merge_sort.py)
+    * [quick_sort](2_Sorting/quick_sort.py)
+
+#
 
 ### Uncategorized
 
 * [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
     * suggested under [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
     * But it does not fit there
+
+</details>
+
+<details>
+  <summary>Click me</summary>
+
+### Heading
+
+1. Foo
+2. Bar
+    * Baz
+    * Qux
+
+### Some Code
+
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</details>
