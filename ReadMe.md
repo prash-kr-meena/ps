@@ -44,7 +44,8 @@
         * The sorted array is also build form left to right direction
         * Basically : Here we push the smallest element to the first
 
-      ##### Questions?       * [GFG Article For Answers](https://www.geeksforgeeks.org/selection-sort/)
+      ##### Questions?
+        * [GFG Article For Answers](https://www.geeksforgeeks.org/selection-sort/)
         * What are the Boundary Cases of Selection Sort algorithm?
             * When does it take maximum time and
             * When does it take minimum time?
@@ -64,7 +65,8 @@
         * But The sorted array is build form right to left direction
         * Basically : Here we push the largest element to the end
 
-      ##### Questions?       * [GFG Article For Answers](https://www.geeksforgeeks.org/bubble-sort/)
+      ##### Questions?
+        * [GFG Article For Answers](https://www.geeksforgeeks.org/bubble-sort/)
         * What are the Boundary Cases of Bubble Sort algorithm?
             * When does it take maximum time and
             * When does it take minimum time?
@@ -81,13 +83,11 @@
 
         * Insertion sort is a bit trickier than selection and bubble sort,
         * and its is also used in many other places, with some modification
-        * e.g. Quick sort's partition step
-
-        - [ ]  To be verified
 
         <hr>
 
-      ##### Questions?       * [GFG Article For Answers](https://www.geeksforgeeks.org/insertion-sort/)
+      ##### Questions?
+        * [GFG Article For Answers](https://www.geeksforgeeks.org/insertion-sort/)
         * What are the Boundary Cases of Insertion Sort algorithm?
             * When does it take maximum time and
             * When does it take minimum time?
