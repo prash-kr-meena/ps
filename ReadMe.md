@@ -43,6 +43,16 @@
         * We traverse from let to right and
         * The sorted array is also build form left to right direction
         * Basically : Here we push the smallest element to the first
+
+      ##### Questions?       * [GFG Article For Answers](https://www.geeksforgeeks.org/selection-sort/)
+        * What are the Boundary Cases of Selection Sort algorithm?
+            * When does it take maximum time and
+            * When does it take minimum time?
+            * What's the time in each case
+        * Is Selection Sort an in-place sorting algorithm?
+        * Is Selection Sort a stable algorithm?
+        * When is the Selection Sort algorithm used?
+
       </details>
 
     * [Bubble Sort](2_Sorting/bubble_sort.py)
@@ -53,6 +63,16 @@
         * We traverse from let to right and
         * But The sorted array is build form right to left direction
         * Basically : Here we push the largest element to the end
+
+      ##### Questions?       * [GFG Article For Answers](https://www.geeksforgeeks.org/bubble-sort/)
+        * What are the Boundary Cases of Bubble Sort algorithm?
+            * When does it take maximum time and
+            * When does it take minimum time?
+            * What's the time in each case
+        * Is Bubble Sort an in-place sorting algorithm?
+        * Is Bubble Sort a stable algorithm?
+        * When is the Bubble Sort algorithm used?
+
       </details>
 
     * [Insertion Sort](2_Sorting/insertion_sort.py)
@@ -69,9 +89,9 @@
 
       ##### Questions?       * [GFG Article For Answers](https://www.geeksforgeeks.org/insertion-sort/)
         * What are the Boundary Cases of Insertion Sort algorithm?
-        * When does it take maximum time and
-        * When does it take minimum time?
-        * What's the time in each case
+            * When does it take maximum time and
+            * When does it take minimum time?
+            * What's the time in each case
         * What are the Algorithmic Paradigm of Insertion Sort algorithm?
         * Is Insertion Sort an in-place sorting algorithm?
         * Is Insertion Sort a stable algorithm?
