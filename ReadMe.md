@@ -43,6 +43,12 @@
         * But The sorted array is build form right to left direction
         * Basically : Here we push the largest element to the end
     * [insertion_sort](2_Sorting/insertion_sort.py)
+        * Insertion sort is a bit trickier than selection and bubble sort,
+        * and its is also used in many other places, with some modification
+        * e.g. Quick sort's partision step
+
+        - [ ]  To be verified
+
     * [Difference Bw Selection Sort and Insertion Sort]()
     * [merge_sort](2_Sorting/merge_sort.py)
     * [quick_sort](2_Sorting/quick_sort.py)
