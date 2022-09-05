@@ -25,4 +25,5 @@
     * For Recursion the absolute OG is Aditya Verma
     * [Recursion Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY) This should be more than enough to understand recursion
     * **TODO** -> Will do these recursion problem when I revise recursion from my notes of these videos, till then I can move on
-6. 
+6. Hashing
+    * [Count frequency of each element in the array](1_Basics/6_Hashing/count_frequenc_of_array_elements.py)
