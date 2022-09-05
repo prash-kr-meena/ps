@@ -27,3 +27,10 @@
     * **TODO** -> Will do these recursion problem when I revise recursion from my notes of these videos, till then I can move on
 6. Hashing
     * [Count frequency of each element in the array](1_Basics/6_Hashing/count_frequenc_of_array_elements.py)
+    * [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
+
+### Uncategorized
+
+* [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+    * suggested under [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
+    * But it does not fit there

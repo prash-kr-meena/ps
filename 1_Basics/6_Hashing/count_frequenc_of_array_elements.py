@@ -45,8 +45,8 @@ def count_frequency_of_array_elements(nums: List[int]) -> Dict[int, int]:
     """
     freq_map = {}
     for num in nums:
-        current_freq = freq_map.get(num, 0)  # if not present give back 1
-        freq_map[num] = current_freq + 1
+        last_freq = freq_map.get(num, 0)  # if not present give back 1
+        freq_map[num] = last_freq + 1
 
     return freq_map
 
