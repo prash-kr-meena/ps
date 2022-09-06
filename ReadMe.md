@@ -118,6 +118,22 @@
 
 </details>
 
+<details>
+  <summary>Arrays</summary>
+
+#### Arrays
+
+* [find_1st_2nd_and_3rd_largest_in_an_array.py](3_Arrays/find_1st_2nd_and_3rd_largest_in_an_array.py)
+    * Find 1st Largest in an Array
+    * Find 1st and 2nd Largest in an Array
+    * Find 1st, 2nd and 3rd Largest in an Array
+* [find_1st_2nd_and_3rd_smallest_in_an_array.py](3_Arrays/find_1st_2nd_and_3rd_smallest_in_an_array.py)
+    * Find 1st Smallest in an Array
+    * Find 1st and 2nd Smallest in an Array
+    * Find 1st, 2nd and 3rd Smallest in an Array
+
+</details>
+
 #
 
 ### Uncategorized
