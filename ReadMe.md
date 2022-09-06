@@ -1,7 +1,7 @@
 [Striver A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 
 <details>
-  <summary>Learn the basics</summary>
+  <summary>Basics</summary>
 
 #### Learn the basics
 
@@ -32,85 +32,91 @@
     * [Count frequency of each element in the array](1_Basics/6_Hashing/count_frequenc_of_array_elements.py)
     * [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
 
-7. Sorting
-    * What is stability in sorting algorithms?
-    * Which algorithms are stable and which of them are unstable?
-    * [Selection Sort](2_Sorting/selection_sort.py)
-      <details>
-            <summary>details</summary>
+</details>
 
-        * In the normal Selection sort (asc order)
-        * We traverse from let to right and
-        * The sorted array is also build form left to right direction
-        * Basically : Here we push the smallest element to the first
 
-      ##### Questions?
-        * [GFG Article For Answers](https://www.geeksforgeeks.org/selection-sort/)
-        * What are the Boundary Cases of Selection Sort algorithm?
-            * When does it take maximum time and
-            * When does it take minimum time?
-            * What's the time in each case
-        * Is Selection Sort an in-place sorting algorithm?
-        * Is Selection Sort a stable algorithm?
-        * When is the Selection Sort algorithm used?
+<details>
+  <summary>Sorting</summary>
 
-      </details>
+#### Sorting
 
-    * [Bubble Sort](2_Sorting/bubble_sort.py)
-      <details>
-            <summary>details</summary>
-
-        * In the normal Bubble sort (asc order)
-        * We traverse from let to right and
-        * But The sorted array is build form right to left direction
-        * Basically : Here we push the largest element to the end
-
-      ##### Questions?
-        * [GFG Article For Answers](https://www.geeksforgeeks.org/bubble-sort/)
-        * What are the Boundary Cases of Bubble Sort algorithm?
-            * When does it take maximum time and
-            * When does it take minimum time?
-            * What's the time in each case
-        * Is Bubble Sort an in-place sorting algorithm?
-        * Is Bubble Sort a stable algorithm?
-        * When is the Bubble Sort algorithm used?
-
-      </details>
-
-    * [Insertion Sort](2_Sorting/insertion_sort.py)
-      <details>
+* What is stability in sorting algorithms?
+* Which algorithms are stable and which of them are unstable?
+* [Selection Sort](2_Sorting/selection_sort.py)
+  <details>
         <summary>details</summary>
 
-        * Insertion sort is a bit trickier than selection and bubble sort,
-        * and its is also used in many other places, with some modification
+    * In the normal Selection sort (asc order)
+    * We traverse from let to right and
+    * The sorted array is also build form left to right direction
+    * Basically : Here we push the smallest element to the first
 
-        <hr>
+  ##### Questions?
+    * [GFG Article For Answers](https://www.geeksforgeeks.org/selection-sort/)
+    * What are the Boundary Cases of Selection Sort algorithm?
+        * When does it take maximum time and
+        * When does it take minimum time?
+        * What's the time in each case
+    * Is Selection Sort an in-place sorting algorithm?
+    * Is Selection Sort a stable algorithm?
+    * When is the Selection Sort algorithm used?
 
-      ##### Questions?
-        * [GFG Article For Answers](https://www.geeksforgeeks.org/insertion-sort/)
-        * What are the Boundary Cases of Insertion Sort algorithm?
-            * When does it take maximum time and
-            * When does it take minimum time?
-            * What's the time in each case
-        * What are the Algorithmic Paradigm of Insertion Sort algorithm?
-        * Is Insertion Sort an in-place sorting algorithm?
-        * Is Insertion Sort a stable algorithm?
-        * When is the Insertion Sort algorithm used?
+  </details>
+* [Bubble Sort](2_Sorting/bubble_sort.py)
+  <details>
+        <summary>details</summary>
 
-      </details>
+    * In the normal Bubble sort (asc order)
+    * We traverse from let to right and
+    * But The sorted array is build form right to left direction
+    * Basically : Here we push the largest element to the end
 
-        - What is [Binary Insertion Sort](https://www.geeksforgeeks.org/binary-insertion-sort/)?
-            * We can use binary search to reduce the number of comparisons in normal insertion sort.
-            * Binary Insertion Sort uses binary search to find the proper location to insert the selected item at each iteration.
-            * In normal insertion, sorting takes O(i) (at ith iteration) in worst case.
-            * We can reduce it to O(log i) by using binary search.
-            * The algorithm, as a whole, still has a running worst case running time of O(n^2) because of the series of swaps required for each insertion.
+  ##### Questions?
+    * [GFG Article For Answers](https://www.geeksforgeeks.org/bubble-sort/)
+    * What are the Boundary Cases of Bubble Sort algorithm?
+        * When does it take maximum time and
+        * When does it take minimum time?
+        * What's the time in each case
+    * Is Bubble Sort an in-place sorting algorithm?
+    * Is Bubble Sort a stable algorithm?
+    * When is the Bubble Sort algorithm used?
 
-        - How to implement [Insertion Sort in Linked List](https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)?
+  </details>
+* [Insertion Sort](2_Sorting/insertion_sort.py)
+  <details>
+    <summary>details</summary>
 
-    * [Difference Bw Selection Sort and Insertion Sort]()
-    * [merge_sort](2_Sorting/merge_sort.py)
-    * [quick_sort](2_Sorting/quick_sort.py)
+    * Insertion sort is a bit trickier than selection and bubble sort,
+    * and its is also used in many other places, with some modification
+
+    <hr>
+
+  ##### Questions?
+    * [GFG Article For Answers](https://www.geeksforgeeks.org/insertion-sort/)
+    * What are the Boundary Cases of Insertion Sort algorithm?
+        * When does it take maximum time and
+        * When does it take minimum time?
+        * What's the time in each case
+    * What are the Algorithmic Paradigm of Insertion Sort algorithm?
+    * Is Insertion Sort an in-place sorting algorithm?
+    * Is Insertion Sort a stable algorithm?
+    * When is the Insertion Sort algorithm used?
+
+  </details>
+
+    - What is [Binary Insertion Sort](https://www.geeksforgeeks.org/binary-insertion-sort/)?
+        * We can use binary search to reduce the number of comparisons in normal insertion sort.
+        * Binary Insertion Sort uses binary search to find the proper location to insert the selected item at each iteration.
+        * In normal insertion, sorting takes O(i) (at ith iteration) in worst case.
+        * We can reduce it to O(log i) by using binary search.
+        * The algorithm, as a whole, still has a running worst case running time of O(n^2) because of the series of swaps required for each insertion.
+
+    - How to implement [Insertion Sort in Linked List](https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)?
+* [Difference Bw Selection Sort and Insertion Sort]()
+* [merge_sort](2_Sorting/merge_sort.py)
+* [quick_sort](2_Sorting/quick_sort.py)
+
+</details>
 
 #
 
@@ -119,8 +125,6 @@
 * [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
     * suggested under [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
     * But it does not fit there
-
-</details>
 
 <details>
   <summary>Click me</summary>
