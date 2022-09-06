@@ -116,6 +116,41 @@
 * [merge_sort](2_Sorting/merge_sort.py)
 * [quick_sort](2_Sorting/quick_sort.py)
 
+#
+
+###### Sorting in Python
+
+* [What is the difference between `sorted(list)` vs `list.sort()`?](https://stackoverflow.com/a/22442440/16889834)
+    * `sorted()` returns a new sorted list, leaving the original list unaffected.
+    * `list.sort()` sorts the list in-place, mutating the list indices, and returns None (like all in-place operations).
+
+    <br>
+
+    * `sorted()` works on any iterable,
+        * not just `lists`. `Strings`, `tuples`, `dictionaries` (you'll get the keys), `generators`, etc.
+        * returning a list containing all elements, sorted.
+    * Use `list.sort()` when you want to mutate the list, `sorted()` when you want a new sorted object back.
+    * Use `sorted()` when you want to sort something that is an iterable, not a list yet.
+
+    <br>
+
+    * For lists, `list.sort()` is **faster** than `sorted()` because it doesn't have to create a copy. For any other iterable, you have no choice.
+
+No, you cannot retrieve the original positions. Once you called list.sort() the original order is gone.
+
+* [`sorted()` method in python, How to provide custom sorting logic](https://www.programiz.com/python-programming/methods/built-in/sorted)
+    - Note :    it is not an in-place, ie it doesn't actually change the underlying iterable <br>
+      and returns the new sorted iterable
+    - `sorted(iterable, key=None, reverse=False)`   key and revers are **optional**
+    - In case of list there exists a method `list.sort()` which is actually inplace, and doesn't return anything
+
+    <br>
+
+    - The`key` parameter (in `sorted(iterable, key=function)` method), is actually a function, that you can provide to give your own implementation of the `sorted()`
+      method <br>
+      Based on the returned value of the `key`Z function, you can sort the given iterable.
+    - [Sorted() function in Python - GFG](https://www.geeksforgeeks.org/sorted-function-python/)
+
 </details>
 
 <details>
@@ -123,11 +158,11 @@
 
 #### Arrays
 
-* [find_1st_2nd_and_3rd_largest_in_an_array.py](3_Arrays/find_1st_2nd_and_3rd_largest_in_an_array.py)
+* [find_1st_2nd_and_3rd_largest_in_an_array.py](3_Arrays/largest_and_smallest/find_1st_2nd_and_3rd_largest_in_an_array.py)
     * Find 1st Largest in an Array
     * Find 1st and 2nd Largest in an Array
     * Find 1st, 2nd and 3rd Largest in an Array
-* [find_1st_2nd_and_3rd_smallest_in_an_array.py](3_Arrays/find_1st_2nd_and_3rd_smallest_in_an_array.py)
+* [find_1st_2nd_and_3rd_smallest_in_an_array.py](3_Arrays/largest_and_smallest/find_1st_2nd_and_3rd_smallest_in_an_array.py)
     * Find 1st Smallest in an Array
     * Find 1st and 2nd Smallest in an Array
     * Find 1st, 2nd and 3rd Smallest in an Array

@@ -6,6 +6,7 @@ Important part could be handling the corner cases, like handling the duplicates 
 Approach 1 : sorting   O(n lg n)
 Approach 2 : 1 Pass    O(n)                 The below implementation
 
+GFG : https://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/
 
 ###
 You can do a comparison before returning the result, in case you don't find the 2nd or 3rd largest and

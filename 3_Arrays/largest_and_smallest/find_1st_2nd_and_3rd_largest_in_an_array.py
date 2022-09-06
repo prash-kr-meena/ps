@@ -5,6 +5,9 @@ Important part could be handling the corner cases, like handling the duplicates 
 
 Approach 1 : sorting   O(n lg n)
 Approach 2 : 1 Pass    O(n)                 The below implementation
+
+
+TUF : https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/
 """
 import math
 from typing import List, Tuple
