@@ -118,6 +118,9 @@
 * [Difference Bw Selection Sort and Insertion Sort]()
 * [merge_sort](2_Sorting/merge_sort.py)
 * [quick_sort](2_Sorting/quick_sort.py)
+    * Quick Sort's Partition Step - Normal & Randomized
+    * Quick Sort
+    * Quick Select
 
 #
 
@@ -169,6 +172,10 @@ No, you cannot retrieve the original positions. Once you called list.sort() the 
     * Find 1st Smallest in an Array
     * Find 1st and 2nd Smallest in an Array
     * Find 1st, 2nd and 3rd Smallest in an Array
+* [Merge 2 Sorted Arrays](3_Arrays/merge_2_sorted_arrays.py)
+* [Merge 2 Sorted Arrays - Without Extra Space](3_Arrays/merge_2_sorted_arrays_without_space.py)
+* [Find kth Largest in an Unsorted Array](/3_Arrays/largest_and_smallest/kth_largest.py)
+* [Find kth Largest in a Sorted Array](3_Arrays/largest_and_smallest/kth_smallest.py)
 
 </details>
 
