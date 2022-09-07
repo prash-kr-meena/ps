@@ -9,6 +9,9 @@
     1. [Python Output Formatting](https://www.geeksforgeeks.org/python-output-formatting/)
     2. [Iterate over multiple lists simultaneously `zip` _(smallest by default)_, `zip_longest`](https://www.geeksforgeeks.org/python-iterate-multiple-lists-simultaneously/)
     3. [Accept multiple arguments to a method &nbsp;&nbsp; **or** <br>Variable-length arguments (`*args`, `**kwargs`) in Python](https://note.nkmk.me/en/python-args-kwargs-usage/)
+    4. [Random Package Function for `int` `float` and `sequence`](1_Basics/1_PythonBasics/random_in_range.py)
+    5. [Python Typing - Type Hints & Annotations --> Typing Module](https://www.youtube.com/watch?v=QORvB-_mbZ0) <br>
+       checkout line 32 of file `typing.py` in your configured python interpreter
 2. Build-up Logical Thinking
     1. [Must do Pattern Problems before starting DSA](https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/)
     2. [Patterns Code](1_Basics/2_PatternProblems/patterns.py)
