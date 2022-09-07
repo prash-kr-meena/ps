@@ -27,6 +27,32 @@ def find_kth_smallest__via_sorting(nums: List[int], k: int) -> int:
     return sorted_nums[k - 1]
 
 
+def find_kth_smallest__via_sorting_handling_duplicity(nums: List[int], k: int) -> int:
+    """
+    Time  : O(n lg n)
+    Space : O(1)            # I know I am using O(n) space, but that will not be the real world solution
+    """
+    nums = sorted(nums)  # Note : It should have been   nums.sort()  ie Inplace sorting
+
+    # Logic for finding kth element, even with duplicate elements
+    if k == 1:
+        return nums[0]  # The first smallest will always be the 0th indexed element of the array
+    else:
+        k = k - 1  # Important Note : This is because we are skipping the 0th index
+        # Start from the index 1, and to check the uniqueness we can compare it with its previous one
+        # if unique will count it in the k (ie, k will decrease) else, we will skip it (ie, k will remain unchanged)
+
+        for i in range(1, len(nums)):
+            if nums[i] == nums[i - 1]:
+                continue  # skipping, and not decreasing k
+            else:  # arr[i] != arr[i - 1]:
+                k = k - 1
+                if k == 0:
+                    return nums[i]
+
+    return "Not Found"  # if not yet returned
+
+
 def find_kth_smallest__via_quick_select(nums: List[int], k: int) -> int:
     pass
 
@@ -45,8 +71,9 @@ if __name__ == '__main__':
     for numbers in lot_of_numbers:
         kth = random.randint(1, len(numbers))  # [1, n-1]  Both included       The kth element is bing counted from 1
         print("kth : ", kth)
-        print("Original Sequence    : ", numbers)
-        print("Sorted Sequence      : ", sorted(numbers))
-        print("kth by Sorting       : ", find_kth_smallest__via_sorting(numbers, kth))
-        print("kth by Quick Select  : ", find_kth_smallest__via_quick_select(numbers, kth))
+        print("Original Sequence                  : ", numbers)
+        print("Sorted Sequence                    : ", sorted(numbers))
+        print("kth by Sorting                     : ", find_kth_smallest__via_sorting(numbers, kth))
+        print("kth by Sorting (Without Duplicity) : ", find_kth_smallest__via_sorting_handling_duplicity(numbers, kth))
+        print("kth by Quick Select                : ", find_kth_smallest__via_quick_select(numbers, kth))
         print()
