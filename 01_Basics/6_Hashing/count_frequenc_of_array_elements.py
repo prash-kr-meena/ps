@@ -35,6 +35,7 @@ Practice
 
 """
 from typing import List, Dict
+from collections import defaultdict
 
 
 def count_frequency_of_array_elements(nums: List[int]) -> Dict[int, int]:
@@ -51,6 +52,14 @@ def count_frequency_of_array_elements(nums: List[int]) -> Dict[int, int]:
     return freq_map
 
 
+def count_frequency_of_array_elements_via_default_dictionary(numbers) -> defaultdict:
+    ddict = defaultdict(lambda: 0)  # ie if key not found return 0
+    # ddict = defaultdict(int)  # int function by default produces 0
+    for num in numbers:
+        ddict[num] = ddict[num] + 1
+    return ddict
+
+
 if __name__ == '__main__':
     lot_of_numbers = [
         [10, 5, 10, 15, 10, 5],
@@ -60,3 +69,4 @@ if __name__ == '__main__':
     ]
     for numbers in lot_of_numbers:
         print(count_frequency_of_array_elements(numbers))
+        print(count_frequency_of_array_elements_via_default_dictionary(numbers).items())

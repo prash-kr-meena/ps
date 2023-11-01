@@ -9,31 +9,31 @@
     1. [Python Output Formatting](https://www.geeksforgeeks.org/python-output-formatting/)
     2. [Iterate over multiple lists simultaneously `zip` _(smallest by default)_, `zip_longest`](https://www.geeksforgeeks.org/python-iterate-multiple-lists-simultaneously/)
     3. [Accept multiple arguments to a method &nbsp;&nbsp; **or** <br>Variable-length arguments (`*args`, `**kwargs`) in Python](https://note.nkmk.me/en/python-args-kwargs-usage/)
-    4. [Random Package Function for `int` `float` and `sequence`](1_Basics/1_PythonBasics/random_in_range.py)
+    4. [Random Package Function for `int` `float` and `sequence`](01_Basics/1_PythonBasics/random_in_range.py)
     5. [Python Typing - Type Hints & Annotations --> Typing Module](https://www.youtube.com/watch?v=QORvB-_mbZ0) <br>
        checkout line 32 of file `typing.py` in your configured python interpreter
 2. Build-up Logical Thinking
     1. [Must do Pattern Problems before starting DSA](https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/)
-    2. [Patterns Code](1_Basics/2_PatternProblems/patterns.py)
+    2. [Patterns Code](01_Basics/2_PatternProblems/patterns.py)
 3. Collections in Python
 4. Basic Math
-    1. [Count digits in a number](1_Basics/4_Math/count_digits.py)
-    2. [Reverse a number](1_Basics/4_Math/reverse_a_number.py)
-    3. [check_palindrome_number](1_Basics/4_Math/check_palindrome_number.py)
+    1. [Count digits in a number](01_Basics/4_Math/count_digits.py)
+    2. [Reverse a number](01_Basics/4_Math/reverse_a_number.py)
+    3. [check_palindrome_number](01_Basics/4_Math/check_palindrome_number.py)
         1. Variations : With Space, Without space, When number is very huge that it can't fit long
-    4. [GCD or HCF of two numbers](1_Basics/4_Math/gcd_and_lcm/gcd_of_two_numbers.py)
-        1. [GCD or HCF of Multiple numbers](1_Basics/4_Math/gcd_and_lcm/gcd_of_multiple_numbers.py)
-    5. [LCM of two numbers](1_Basics/4_Math/gcd_and_lcm/lcm_of_two_numbers.py)
-        1. [LCM of multiple numbers](1_Basics/4_Math/gcd_and_lcm/lcm_of_multiple_numbers.py) : What's the catch here?
-    6. [Armstrong Number](1_Basics/4_Math/armstrong_number.py)
-    7. [All Divisors of a Number](1_Basics/4_Math/all_divisors.py)
+    4. [GCD or HCF of two numbers](01_Basics/4_Math/gcd_and_lcm/gcd_of_two_numbers.py)
+        1. [GCD or HCF of Multiple numbers](01_Basics/4_Math/gcd_and_lcm/gcd_of_multiple_numbers.py)
+    5. [LCM of two numbers](01_Basics/4_Math/gcd_and_lcm/lcm_of_two_numbers.py)
+        1. [LCM of multiple numbers](01_Basics/4_Math/gcd_and_lcm/lcm_of_multiple_numbers.py) : What's the catch here?
+    6. [Armstrong Number](01_Basics/4_Math/armstrong_number.py)
+    7. [All Divisors of a Number](01_Basics/4_Math/all_divisors.py)
 5. Recursion
     * For Recursion the absolute OG is Aditya Verma
     * [Recursion Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY) This should be more than enough to understand recursion
     * **TODO** -> Will do these recursion problem when I revise recursion from my notes of these videos, till then I can move on
 6. Hashing
-    * [Count frequency of each element in the array](1_Basics/6_Hashing/count_frequenc_of_array_elements.py)
-    * [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
+    * [Count frequency of each element in the array](01_Basics/6_Hashing/count_frequenc_of_array_elements.py)
+    * [Find the highest/lowest frequency element](01_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
 
 </details>
 
@@ -45,7 +45,7 @@
 
 * What is stability in sorting algorithms?
 * Which algorithms are stable and which of them are unstable?
-* [Selection Sort](2_Sorting/selection_sort.py)
+* [Selection Sort](02_Sorting/selection_sort.py)
   <details>
         <summary>details</summary>
 
@@ -65,7 +65,7 @@
     * When is the Selection Sort algorithm used?
 
   </details>
-* [Bubble Sort](2_Sorting/bubble_sort.py)
+* [Bubble Sort](02_Sorting/bubble_sort.py)
   <details>
         <summary>details</summary>
 
@@ -85,7 +85,7 @@
     * When is the Bubble Sort algorithm used?
 
   </details>
-* [Insertion Sort](2_Sorting/insertion_sort.py)
+* [Insertion Sort](02_Sorting/insertion_sort.py)
   <details>
     <summary>details</summary>
 
@@ -116,8 +116,8 @@
 
     - How to implement [Insertion Sort in Linked List](https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)?
 * [Difference Bw Selection Sort and Insertion Sort]()
-* [merge_sort](2_Sorting/merge_sort.py)
-* [quick_sort](2_Sorting/quick_sort.py)
+* [merge_sort](02_Sorting/merge_sort.py)
+* [quick_sort](02_Sorting/quick_sort.py)
     * Quick Sort's Partition Step - Normal & Randomized
     * Quick Sort
     * Quick Select
@@ -164,18 +164,18 @@ No, you cannot retrieve the original positions. Once you called list.sort() the 
 
 #### Arrays
 
-* [find_1st_2nd_and_3rd_largest_in_an_array.py](3_Arrays/largest_and_smallest/find_1st_2nd_and_3rd_largest_in_an_array.py)
+* [find_1st_2nd_and_3rd_largest_in_an_array.py](03_Arrays/largest_and_smallest/find_1st_2nd_and_3rd_largest_in_an_array.py)
     * Find 1st Largest in an Array
     * Find 1st and 2nd Largest in an Array
     * Find 1st, 2nd and 3rd Largest in an Array
-* [find_1st_2nd_and_3rd_smallest_in_an_array.py](3_Arrays/largest_and_smallest/find_1st_2nd_and_3rd_smallest_in_an_array.py)
+* [find_1st_2nd_and_3rd_smallest_in_an_array.py](03_Arrays/largest_and_smallest/find_1st_2nd_and_3rd_smallest_in_an_array.py)
     * Find 1st Smallest in an Array
     * Find 1st and 2nd Smallest in an Array
     * Find 1st, 2nd and 3rd Smallest in an Array
-* [Merge 2 Sorted Arrays](3_Arrays/merge_2_sorted_arrays.py)
-* [Merge 2 Sorted Arrays - Without Extra Space](3_Arrays/merge_2_sorted_arrays_without_space.py)
-* [Find kth Largest in an Unsorted Array](/3_Arrays/largest_and_smallest/kth_largest.py)
-* [Find kth Largest in a Sorted Array](3_Arrays/largest_and_smallest/kth_smallest.py)
+* [Merge 2 Sorted Arrays](03_Arrays/merge_2_sorted_arrays.py)
+* [Merge 2 Sorted Arrays - Without Extra Space](03_Arrays/merge_2_sorted_arrays_without_space.py)
+* [Find kth Largest in an Unsorted Array](/03_Arrays/largest_and_smallest/kth_largest.py)
+* [Find kth Largest in a Sorted Array](03_Arrays/largest_and_smallest/kth_smallest.py)
 
 </details>
 
@@ -184,7 +184,7 @@ No, you cannot retrieve the original positions. Once you called list.sort() the 
 ### Uncategorized
 
 * [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
-    * suggested under [Find the highest/lowest frequency element](1_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
+    * suggested under [Find the highest/lowest frequency element](01_Basics/6_Hashing/find_highest_and_lowest_frequency_element.py)
     * But it does not fit there
 
 <details>
